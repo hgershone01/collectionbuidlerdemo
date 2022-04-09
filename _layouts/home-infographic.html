@@ -5,6 +5,10 @@ layout: page
 <div class="row">
   <div class="col-md-8">
 
+     <div class="col-md-12">
+
+    {% include index/data-download.html %}
+
     {% include index/description.html %}
     {% include index/carousel.html title="Sample Items" height="300" %}
   
@@ -13,16 +17,11 @@ layout: page
 
     {% include index/time.html %}
 
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="info" %}
-
     {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
 
     {% include index/objects.html %}
 
   </div>
-  <div class="col-md-12">
-
-    {% include index/data-download.html %}
-
+ 
   </div>
 </div>
