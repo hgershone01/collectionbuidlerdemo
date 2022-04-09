@@ -10,7 +10,23 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="Eligibility;Guiding Topics/Prompts/Ideas;About the Collection;About the About Page" %}
+
+## Eligibility 
+
+Elibility for Tuna Time:
+
+- Self-indentifying transracial adoptee (identify as a different race from your adoptive parents)
+- 18 years of age or older
+{% include feature/image.html objectid="psychiana008" width="75" %}
+
+## Guiding Topics/Prompts/Ideas
+
+What hauntings have been present in your life?
+Where do you find home?
+How does your work relate to the legacy of other activisms by communities of color? 
+
+{% include feature/card.html header="Tuna Time" text="Tuna Loves Sour Cream and Onion Chips" objectid="psychiana008" width="50" centered=true %}
 
 ## About the Collection
 
